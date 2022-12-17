@@ -1,0 +1,120 @@
+
+
+  html::before,
+  body::before,
+  header::before,
+  footer::before,
+  main::before {
+    color: #4a48d6;
+    font-size: medium;
+    font-family: Algerian, 'Times New Roman', Times, serif;
+  }
+  
+  main,
+  header {
+    background-color: #090a0aee;
+    border: 10px solid #9c0aaf;
+    font-size: medium;
+    font-family: Castellar, 'Times New Roman', Times, serif;
+    color: #f5edf4;
+  }
+  
+  footer {
+    background-color: #090a0aee;
+    border: 10px solid #9c0aaf;
+    font-size: medium;
+    font-family: Castellar, 'Times New Roman', Times, serif;
+    color:#f5edf4
+  }
+  nav,
+  section,
+  article,
+  aside {
+    background-color: #373538;
+    border: 1px solid #ff00bf;
+  }
+  
+  nav::before,
+  section::before,
+  article::before,
+  aside::before {
+    color: #9273e7;
+  }
+  
+  h1 {
+    font-size: 18px;
+    background-color: #d324a7;
+    border: 20px solid #1916cf;
+  }
+  
+  h1::before {
+    content: "h1";
+    color: #f70000;
+  }
+  
+  p {
+    background-color: #741997;
+    border: 2px solid #f36dff;
+  }
+  
+  p::before {
+    color: #f36dff;
+    content: "p";
+  }
+  * {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  
+  *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  *::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+  }
+  
+  
+  html::before {
+    content: "html";
+  }
+  
+  body::before {
+    content: "body";
+  }
+  
+  main::before {
+    content: "Main containment (main)";
+  }
+  
+  header::before {
+    content: "Head (header)";
+  }
+  
+  footer::before {
+    content: "footer";
+  }
+  
+  section::before {
+    content: "section";
+  }
+  
+  article::before {
+    content: "Dedicated section (article)";
+  }
+  
+  aside::before {
+    content: "side bar (aside)";
+  }
+  
+  nav::before {
+    content: "navigation (nav)";
+  }
